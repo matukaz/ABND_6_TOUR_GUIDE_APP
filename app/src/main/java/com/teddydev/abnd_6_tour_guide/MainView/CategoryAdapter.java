@@ -44,7 +44,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return context.getString(R.string.food_title);
+                return context.getString(R.string.campsite_title);
             case 1:
                 return context.getString(R.string.drink_title);
             case 2:
