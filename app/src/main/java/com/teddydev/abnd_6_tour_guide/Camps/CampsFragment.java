@@ -35,6 +35,8 @@ public class CampsFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_food, container, false);
 
+        setRetainInstance(true);
+
         campingSites.add(new CampingSite("Krapi campsite", "The campsite is situated in the shade of old coastal pines on the ca 2 km stretch of the seashore.", R.drawable.krapi));
         campingSites.add(new CampingSite("Lake Rae campsite", "The campsite is situated at Lake Rae and is a nice place for a forest recreation, swimming, fishing or hiking on Lake Rae hiking trail. The Kopra tare–Ikla section (74 km) of RMK Hiking Route passes the campsite.", R.drawable.lemme_telkimisala));
         campingSites.add(new CampingSite("Lemme campsite", "Lemme campsite has been a popular holiday destination among domestic and foreign tourists for dozens of years. The campsite is situated on the seashore in the shade of pine trees and is surrounded by fence. The RMK Hiking Route section Kopra tare–Ikla (74 km) passes the campsite.", R.drawable.matsiranna_telkimisala));

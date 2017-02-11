@@ -35,6 +35,8 @@ public class ObserverTowerFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_food, container, false);
 
+        setRetainInstance(true);
+
         observerTowerList.add(new ObserverTower("Aluoja observation platform","Northern Shore of Lake Peipus Recreation Area"));
         observerTowerList.add(new ObserverTower("Harimägi observation tower and campfire site","Otepää Nature Park"));
         observerTowerList.add(new ObserverTower("Iisaku observation tower","Northern Shore of Lake Peipus Recreation Area"));

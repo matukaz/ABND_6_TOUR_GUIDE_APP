@@ -35,6 +35,8 @@ public class TrailsFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_food, container, false);
 
+        setRetainInstance(true);
+
         trailsList.add(new Trail("Alatskivi hiking trail (4.5 km)", "The 4.5 km hiking trail runs around Lake Lossijärv next to the famous Alatskivi Manor, and with its alternating terrain, various sights and diverse biota offers wonderful experiences in all seasons."));
         trailsList.add(new Trail("Allika hiking trail (1.2 km)", "Lake Prästviigi in the centre of the Vormsi Island is a former lagoon overgrown in reeds. The lake’s bird population is abundant and diverse, and on silent spring nights you might hear the calling of Eurasian bittern. In the northern part of the lake are numerous springs, the largest of which is Suurallikas (“great spring”) or Ohvriallikas (“sacrificial spring”). The hiking trail leads to the observation tower on the northern shore of Lake Prästviigi."));
         trailsList.add(new Trail("Apteekrimägi hiking trail (4 km)", "Apteekrimägi forest trail is a 4 km loop trail with varied terrain and is excellent for jogging or walking. The trail starts and ends in Mäe street, Otepää, in front of Otepää Sports School. There are 4 large boards with the map of the trail and 2 training sites with logs for log lifting."));

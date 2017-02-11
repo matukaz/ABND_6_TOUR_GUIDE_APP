@@ -35,6 +35,8 @@ public class RestStopsFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_food, container, false);
 
+        setRetainInstance(true);
+
         restStopsList.add(new RestStop("Ähijärve rest stop","The recreation site is situated in the yard of the visitor centre of Karula National Park. The recreation site has a table and benches and an outdoor shower with fresh drinking water. A good picnic site. The parking area of the visitor centre is next to the recreation site"));
         restStopsList.add(new RestStop("Diby rest stop",""));
         restStopsList.add(new RestStop("Esku rest stop","At Esku recreation site you can enjoy the beauty of the forest and listen to the birds sing. In autumn it is a good place to pick mushrooms"));
