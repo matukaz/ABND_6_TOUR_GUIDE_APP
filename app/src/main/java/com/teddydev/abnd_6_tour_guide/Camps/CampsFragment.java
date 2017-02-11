@@ -37,11 +37,11 @@ public class CampsFragment extends Fragment {
 
         setRetainInstance(true);
 
-        campingSites.add(new CampingSite("Krapi campsite", "The campsite is situated in the shade of old coastal pines on the ca 2 km stretch of the seashore.", R.drawable.krapi));
-        campingSites.add(new CampingSite("Lake Rae campsite", "The campsite is situated at Lake Rae and is a nice place for a forest recreation, swimming, fishing or hiking on Lake Rae hiking trail. The Kopra tare–Ikla section (74 km) of RMK Hiking Route passes the campsite.", R.drawable.lemme_telkimisala));
-        campingSites.add(new CampingSite("Lemme campsite", "Lemme campsite has been a popular holiday destination among domestic and foreign tourists for dozens of years. The campsite is situated on the seashore in the shade of pine trees and is surrounded by fence. The RMK Hiking Route section Kopra tare–Ikla (74 km) passes the campsite.", R.drawable.matsiranna_telkimisala));
-        campingSites.add(new CampingSite("Matsiranna campsite", "The seaside campsite is an attractive place for swimming and camping in the summer months.", R.drawable.lemme_telkimisala));
-        campingSites.add(new CampingSite("Soontagana campsite", "The campsite is situated in Avaste Nature Reserve. On the Soontagana bog island you can see the ruins of two farmsteads, the history of which can be traced back 22 generations. The first defence structures of the Soontagana hill fort date from the 7th to 8th century. The campsite boasts a rich historical and cultural legacy—old farm sites, stone walls, cellars.", R.drawable.sootagana_telkimisala));
+        campingSites.add(new CampingSite(getString(R.string.krapi_campsite), getString(R.string.krapi_campsite_description), R.drawable.krapi));
+        campingSites.add(new CampingSite(getString(R.string.lake_rae_campsite), getString(R.string.lake_rae_campsite_description), R.drawable.lemme_telkimisala));
+        campingSites.add(new CampingSite(getString(R.string.lemme_campsite), getString(R.string.lemme_campsite_description), R.drawable.matsiranna_telkimisala));
+        campingSites.add(new CampingSite(getString(R.string.matsiranna_campsite), getString(R.string.matsiranna_campsite_description), R.drawable.lemme_telkimisala));
+        campingSites.add(new CampingSite(getString(R.string.sootagana_campsite), getString(R.string.sootagana_campsite_description), R.drawable.sootagana_telkimisala));
 
         SimpleImageListAdapter wordAdapter = new SimpleImageListAdapter(getContext(), campingSites);
 

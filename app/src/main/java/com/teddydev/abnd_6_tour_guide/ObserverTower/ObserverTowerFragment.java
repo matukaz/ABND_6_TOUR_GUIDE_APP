@@ -37,10 +37,10 @@ public class ObserverTowerFragment extends Fragment {
 
         setRetainInstance(true);
 
-        observerTowerList.add(new ObserverTower("Aluoja observation platform","Northern Shore of Lake Peipus Recreation Area"));
-        observerTowerList.add(new ObserverTower("Harimägi observation tower and campfire site","Otepää Nature Park"));
-        observerTowerList.add(new ObserverTower("Iisaku observation tower","Northern Shore of Lake Peipus Recreation Area"));
-        observerTowerList.add(new ObserverTower("Keemu observation tower","Matsalu National Park"));
+        observerTowerList.add(new ObserverTower(getString(R.string.aluoja_observation),getString(R.string.aluoja_observation_location)));
+        observerTowerList.add(new ObserverTower(getString(R.string.harimagi_observation),getString(R.string.harimagi_observation_location)));
+        observerTowerList.add(new ObserverTower(getString(R.string.iisaku_observation),getString(R.string.iisaku_observation_location)));
+        observerTowerList.add(new ObserverTower(getString(R.string.keemu_observation),getString(R.string.keemu_observation_location)));
 
         SimpleImageListAdapter wordAdapter = new SimpleImageListAdapter(getContext(), observerTowerList);
 

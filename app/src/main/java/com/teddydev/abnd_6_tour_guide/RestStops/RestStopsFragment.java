@@ -37,15 +37,14 @@ public class RestStopsFragment extends Fragment {
 
         setRetainInstance(true);
 
-        restStopsList.add(new RestStop("Ähijärve rest stop","The recreation site is situated in the yard of the visitor centre of Karula National Park. The recreation site has a table and benches and an outdoor shower with fresh drinking water. A good picnic site. The parking area of the visitor centre is next to the recreation site"));
-        restStopsList.add(new RestStop("Diby rest stop",""));
-        restStopsList.add(new RestStop("Esku rest stop","At Esku recreation site you can enjoy the beauty of the forest and listen to the birds sing. In autumn it is a good place to pick mushrooms"));
-        restStopsList.add(new RestStop("Harilaiu rest stop","A stopping point for discovering the most north-west peninsula of Saaremaa. At the Harilaiu peninsula you can view rapid natural processes where the sea is in constant battle with the land."));
-        restStopsList.add(new RestStop("Hülkari rest stop","The recreation site offers a magnificent view on Tallinna Bay and Tallinn City. The site is located in the midst of wide and clean sand dunes. The sea by the recreation site is suitable for swimming."));
-        restStopsList.add(new RestStop("Ilumetsa rest stop (Meteorite Craters)","Ilumetsa recreation site is situated near meteorite craters in Orava municipality, Põlva County.\n" +
-                "There is a tourist information cabin, boardwalk, parking area and dry toilet at the recreation site. Camping with tents is not allowed. The site leads to a fascinating walk to the largest meteorite crater here, called Põrguhaud or “Grave of hell”. Wheelchair accessibility."));
-        restStopsList.add(new RestStop("Isabella rest stop",""));
-        restStopsList.add(new RestStop("Järve rest stop","Long beach with golden sands, interesting protected plant species can be found under the pine trees. "));
+        restStopsList.add(new RestStop(getString(R.string.ahijarve_rest_stop),getString(R.string.ahijarve_rest_stop_description)));
+        restStopsList.add(new RestStop(getString(R.string.diby_rest_stop),getString(R.string.diby_rest_stop_description)));
+        restStopsList.add(new RestStop(getString(R.string.esku_rest_stop),getString(R.string.esku_rest_stop_description)));
+        restStopsList.add(new RestStop(getString(R.string.harilaiu_rest_stop),getString(R.string.harilaiu_rest_stop_description)));
+        restStopsList.add(new RestStop(getString(R.string.hulkari_rest_stop),getString(R.string.hulkari_rest_stop_description)));
+        restStopsList.add(new RestStop(getString(R.string.ilumetsa_rest_stop),getString(R.string.ilumetsa_rest_stop_description)));
+        restStopsList.add(new RestStop(getString(R.string.isabella_rest_stop),getString(R.string.isabella_rest_stop_description)));
+        restStopsList.add(new RestStop(getString(R.string.jarve_rest_stop),getString(R.string.jarve_rest_stop_description)));
 
         SimpleImageListAdapter wordAdapter = new SimpleImageListAdapter(getContext(), restStopsList);
 
