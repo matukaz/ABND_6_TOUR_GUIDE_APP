@@ -1,4 +1,4 @@
-package com.teddydev.abnd_6_tour_guide.Trails;
+package com.teddydev.abnd_6_tour_guide.RestStops;
 
 
 import android.os.Bundle;

@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import com.teddydev.abnd_6_tour_guide.Camps.CampsFragment;
 import com.teddydev.abnd_6_tour_guide.ObserverTower.ObserverTowerFragment;
 import com.teddydev.abnd_6_tour_guide.R;
-import com.teddydev.abnd_6_tour_guide.Trails.RestStopsFragment;
+import com.teddydev.abnd_6_tour_guide.RestStops.RestStopsFragment;
 import com.teddydev.abnd_6_tour_guide.Trails.TrailsFragment;
 
 /**
