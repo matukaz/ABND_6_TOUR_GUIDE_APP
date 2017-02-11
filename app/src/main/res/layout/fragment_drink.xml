@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.teddydev.abnd_6_tour_guide.Drinks.DrinkFragment">
+    tools:context="com.teddydev.abnd_6_tour_guide.Trails.TrailsFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

@@ -5,11 +5,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.teddydev.abnd_6_tour_guide.Drinks.DrinkFragment;
-import com.teddydev.abnd_6_tour_guide.Food.CampsFragment;
+import com.teddydev.abnd_6_tour_guide.Camps.CampsFragment;
+import com.teddydev.abnd_6_tour_guide.ObserverTower.ObserverTowerFragment;
 import com.teddydev.abnd_6_tour_guide.R;
-import com.teddydev.abnd_6_tour_guide.Services.ServiceFragment;
-import com.teddydev.abnd_6_tour_guide.Shops.ShopsFragment;
+import com.teddydev.abnd_6_tour_guide.Trails.RestStopsFragment;
+import com.teddydev.abnd_6_tour_guide.Trails.TrailsFragment;
 
 /**
  * Created by Matu on 07.02.2017.
@@ -30,11 +30,11 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             case 0:
                 return new CampsFragment();
             case 1:
-                return new DrinkFragment();
+                return new TrailsFragment();
             case 2:
-                return new ShopsFragment();
+                return new RestStopsFragment();
             case 3:
-                return new ServiceFragment();
+                return new ObserverTowerFragment();
             default:
                 return null;
         }
@@ -46,11 +46,11 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             case 0:
                 return context.getString(R.string.campsite_title);
             case 1:
-                return context.getString(R.string.drink_title);
+                return context.getString(R.string.trails_title);
             case 2:
-                return context.getString(R.string.shops_title);
+                return context.getString(R.string.rest_stops_title);
             case 3:
-                return context.getString(R.string.Service_title);
+                return context.getString(R.string.observer_tower_title);
             default:
                 return null;
         }

@@ -32,12 +32,13 @@ public class SimpleImageListAdapter extends ArrayAdapter<Place> {
 
         Place place = getItem(position);
         TextView title = (TextView) listItemView.findViewById(R.id.title);
-        TextView location = (TextView) listItemView.findViewById(R.id.location);
+        TextView location = (TextView) listItemView.findViewById(R.id.description);
         ImageView image = (ImageView) listItemView.findViewById(R.id.image);
 
         title.setText(place.getName());
         location.setText(place.getDescriptions());
         if(place.getPhoto() != 0) {
+            image.setVisibility(View.VISIBLE);
             image.setImageResource(place.getPhoto());
         }
 

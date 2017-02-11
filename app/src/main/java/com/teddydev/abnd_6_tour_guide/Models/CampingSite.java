@@ -4,16 +4,16 @@ package com.teddydev.abnd_6_tour_guide.Models;
  * Created by Matu on 07.02.2017.
  */
 
-public class CampingSites implements Place {
+public class CampingSite implements Place {
 
     private String name;
-    private String location;
+    private String description;
     private int photo = EMPTY_PICTURE;
     private static final int EMPTY_PICTURE = 0;
 
-    public CampingSites(String name, String location, int photo) {
+    public CampingSite(String name, String description, int photo) {
         this.name = name;
-        this.location = location;
+        this.description = description;
         this.photo = photo;
     }
 
@@ -24,7 +24,7 @@ public class CampingSites implements Place {
 
     @Override
     public String getDescriptions() {
-        return location;
+        return description;
     }
 
     @Override

@@ -6,7 +6,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="campsite_title">Camp sites</string>
-    <string name="drink_title">Drink</string>
-    <string name="shops_title">Shops</string>
-    <string name="Service_title">Services</string>
+    <string name="trails_title">Trails</string>
+    <string name="rest_stops_title">Rest Stops</string>
+    <string name="observer_tower_title">Oberserver Towers</string>
 </resources>
